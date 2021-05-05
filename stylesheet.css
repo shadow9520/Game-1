@@ -1,0 +1,40 @@
+/* CSS reset */
+ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+     margin:0;
+     padding:0;
+}
+ html, body {
+     margin: 0;
+     padding: 0;
+}
+ body {
+     font-family: 'Roboto', sans-serif;
+     
+     font-weight: 100;
+     background: url(backgrounds/image-1.png)no-repeat top;
+     background-size: cover;
+     filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(200deg);
+}
+ fieldset {
+     border: 1px solid white;
+     color: white;
+     text-align: center;
+     width: 200px;
+}
+ legend {
+     padding: 0 10px;
+}
+h1{
+  color:gold;
+  text-decoration: bold;
+  text-align:center;
+}
+p{
+  text-indent:1ch;
+  text-size-adjust:inherit;
+  color:rgb(24, 59, 255);
+}
+h3{
+  color:orange;
+  text-decoration:bold;
+}

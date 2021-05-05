@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.16.2/phaser.min.js"></script>
+    <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+    <link type="text/javascript" href="scene1.js"/>
+  </head>
+  <body>
+    <br></br>
+    <h1>Hello and welcome. Hope you enjoy.</h1>
+    <p>This is a little something I created to show that I love programming and want to do it for a full time job.</p>
+    <p>I will see you in the game so enjoy and have fun.</p>
+    <center><h3>This is something me and my friend Elliot created.</h3></center>
+    <div id="app"></div>
+    <script type="text/javascript">
+      const phaserConfig = {
+          type: Phaser.AUTO,
+          scale: {
+            autoCenter: Phaser.Scale.CENTER_BOTH,
+            mode: Phaser.Scale.FIT,
+            parent: "app",
+            width: 400,
+            height: 400,
+          },
+
+          physics: {
+            default: 'arcade',
+            arcade: {
+                gravity: { y: 300 },
+                debug: false
+            }
+          },
+          scene: [SceneOne]
+      }
+      const game = new Phaser.Game(phaserConfig);
+    </script>
+
+  </body>
+</html>
