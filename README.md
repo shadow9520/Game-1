@@ -12,4 +12,4 @@ Heres the audio trimmer I used to edit the songs and sounds.
 
 this how you make a link
 
-[text of link](https://linkadress)
+[https://audiotrimmer.com/](https://linkadress)
