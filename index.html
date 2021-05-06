@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.16.2/phaser.min.js"></script>
     <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
-    <link type="text/javascript" href="scene1.js"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.16.2/phaser.min.js"></script>
+    <script type="text/javascript" src="scene1.js"></script>
   </head>
   <body>
     <br></br>
@@ -22,8 +22,8 @@
             autoCenter: Phaser.Scale.CENTER_BOTH,
             mode: Phaser.Scale.FIT,
             parent: "app",
-            width: 400,
-            height: 400,
+            width: 1040,
+            height: 1040,
           },
 
           physics: {
@@ -36,6 +36,7 @@
           scene: [SceneOne]
       }
       const game = new Phaser.Game(phaserConfig);
+
     </script>
 
   </body>

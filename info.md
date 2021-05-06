@@ -67,6 +67,7 @@ you use this to do things that repedidly happen
 
 add stuff
 -
+audio
 
 `this.load.audio("nameinfile", "./filepath.mp3");`
 
@@ -79,3 +80,10 @@ image
 
 also look at [the phaser documentation](https://photonstorm.github.io/phaser3-docs/) 
 
+
+
+this.load.audio("welcome-aboard", "./audio/Welcome aboard, Captain. (320 kbps).mp3")
+
+pmusic1 = this.sound.add("welcome-aboard", { loop: false });
+
+pmusic1.play()

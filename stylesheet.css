@@ -13,7 +13,7 @@
      font-weight: 100;
      background: url(backgrounds/shadow.png)no-repeat top;
      background-size: cover;
-     filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(200deg);
+     background-color: black
 }
  fieldset {
      border: 1px solid white;
@@ -32,7 +32,7 @@ h1{
 p{
   text-indent:1ch;
   text-size-adjust:inherit;
-  color:rgb(24, 59, 255);
+  color:rgb(255, 24, 36);
 }
 h3{
   color:orange;
