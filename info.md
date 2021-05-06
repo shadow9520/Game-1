@@ -1,5 +1,3 @@
-look at the preview bean
-
 
 so there are 5 functions in your standerd scene, `initilize` `init` `preload` `create` `update`
 The only time you should do anything with `initilize` is when your creating a new scene
@@ -87,3 +85,5 @@ this.load.audio("welcome-aboard", "./audio/Welcome aboard, Captain. (320 kbps).m
 pmusic1 = this.sound.add("welcome-aboard", { loop: false });
 
 pmusic1.play()
+
+---------------------------------------- --------------
