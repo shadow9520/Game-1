@@ -7,10 +7,14 @@ I have added a few more backgrounds to the previous.
 - setting sun sky.
 - night time sky.
 
-Heres the audio trimmer I used to edit the songs and sounds.
+Heres the audio trimmer I used to edit the songs and sound in the links below
 
 
-this how you make a link
 
 [https://audiotrimmer.com/](https://audiotrimmer.com/)
 
+[youtube to mp3 converter](https://youtube-to-mp3.org/youtube-to-mp3/)
+
+1.5 update:
+The characters are now in the files and will be implemented soon.
+the canves of the game is now in place and ready to be turned into an interactable screen for the game.
