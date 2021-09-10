@@ -9,7 +9,6 @@ var Title = new Phaser.Class({
       this.load.audio("audio", "/audio/song1.mp3");
     },
     create: function() {
-      create: function() {
       this.add.image(0, 0, 'background').setOrigin(0, 0)
       ready = false
       paudio = this.sound.add("audio", { loop: true });
@@ -20,7 +19,7 @@ var Title = new Phaser.Class({
             "2D Subnautica", 
             {
                 fontSize: 50,
-                color: "#000000",
+                color: "#111100",
                 fontStyle: "bold"
             }
             ).setOrigin(0.5);
@@ -63,7 +62,6 @@ var Title = new Phaser.Class({
       
       if (ready){
         if(key.isDown){
-          select.play();
           ready = false
           let container = this.add.container(0, 0, [text]);
           this.physics.world.enableBody(container);
@@ -86,7 +84,6 @@ var Title = new Phaser.Class({
                     delay: 1000,
                     loop: false,
                     callback: () => {
-                      pmusic.stop()
                       this.scene.start("SceneOne")
                       this.scene.start("Song1")
                       this.scene.stop();

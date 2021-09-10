@@ -7,6 +7,8 @@
     <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.16.2/phaser.min.js"></script>
     <script type="text/javascript" src="scene1.js"></script>
+    <script type="text/javascript" src="Scene2.js"></script>
+    <script type="text/javascript" src="title.js"></script>
   </head>
   <body>
     <br></br>
@@ -34,7 +36,7 @@
                 debug: false
             }
           },
-          scene: [Title,SceneOne]
+          scene: [Title,SceneOne,SceneTwo]
       }
       const game = new Phaser.Game(phaserConfig);
 

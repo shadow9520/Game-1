@@ -20,7 +20,8 @@ Heres the audio trimmer I used to edit the songs and sound in the links below
 - 1.5 update:
 The characters are now in the files and will be implemented soon.
 the canves of the game is now in place and ready to be turned into an interactable screen for the game.
-- 1.6:
+- 1.6 and 1.7:
 The characters are now polished and look better. The code is starting to come together. Rearanging some of the code in some of the files.
+- 1.8
 
-Elliot can you help me define Title and help me fix the code inside scene1.js, title.js, and index.html?
+***Elliot can you help me define Title and help me fix the code inside scene1.js, title.js, and index.html?***
